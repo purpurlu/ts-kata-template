@@ -5,7 +5,7 @@
  */
 function countSpace(inputString: string): number {
   let spaceNumber = 0;
-  for (let CHARACTER of inputString) {
+  for (const CHARACTER of inputString) {
     if (CHARACTER === " ") {
       spaceNumber++;
     }
